@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1739126596|9795829471';
+const CACHE_VERSION = '1739126984|10183057029';
 /** @type {string} */
 const CACHE_PREFIX = 'Chub_Jump-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
