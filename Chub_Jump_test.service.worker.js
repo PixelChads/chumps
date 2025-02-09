@@ -4,14 +4,14 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1739126984|10183057029';
+const CACHE_VERSION = '1739127360|10559132272';
 /** @type {string} */
 const CACHE_PREFIX = 'Chub_Jump-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 /** @type {string} */
 const OFFLINE_URL = 'Chub_Jump_test.offline.html';
 /** @type {boolean} */
-const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
+const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = false;
 // Files that will be cached on load.
 /** @type {string[]} */
 const CACHED_FILES = ["Chub_Jump_test.html","Chub_Jump_test.js","Chub_Jump_test.offline.html","Chub_Jump_test.icon.png","Chub_Jump_test.apple-touch-icon.png","Chub_Jump_test.worker.js","Chub_Jump_test.audio.worklet.js"];
